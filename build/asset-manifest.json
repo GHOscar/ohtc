@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0efd3f86.css",
+    "main.js": "/static/js/main.a3a6ecf6.js",
+    "static/media/häst.jpg": "/static/media/häst.8d73be40ff5eff6c13b3.jpg",
+    "static/media/brunhäst.jpg": "/static/media/brunhäst.d2fe865da90562c99a57.jpg",
+    "static/media/hero.jpg": "/static/media/hero.62ed8c5a9d5aa1cdf32f.jpg",
+    "static/media/springandehästar.jpg": "/static/media/springandehästar.2f60243d62fd92ef4f08.jpg",
+    "static/media/Hästar.jpg": "/static/media/Hästar.1989f2a2b755749837d2.jpg",
+    "static/media/R6__2836.jpeg": "/static/media/R6__2836.3d2a721d77d1a4ead877.jpeg",
+    "static/media/singlealu-3.jpeg": "/static/media/singlealu-3.27d5494287ca34c8f0c9.jpeg",
+    "static/media/hitta.png": "/static/media/hitta.f6ea40902ecfcb1d960a.png",
+    "static/media/Humbaur_Claim-positiv_4c.png": "/static/media/Humbaur_Claim-positiv_4c.ca19fa8e82f551ffd444.png",
+    "static/media/ohtc.jpeg": "/static/media/ohtc.a9d3af381d279758a12e.jpeg",
+    "index.html": "/index.html",
+    "main.0efd3f86.css.map": "/static/css/main.0efd3f86.css.map",
+    "main.a3a6ecf6.js.map": "/static/js/main.a3a6ecf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0efd3f86.css",
+    "static/js/main.a3a6ecf6.js"
+  ]
+}
