@@ -7,11 +7,11 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1200px] w-full grid items-center justify-items-center sm:grid-cols-2'>
                 <div className='pb-8 px-4'>
-                    <div className='sm:px-6 flex items-center justify-center px-0  sm:w-full flex-col rounded-xl bg-[#E0EDFF] shadow-custom sm:mx-4'>
-                <div className='sm:px-4 py-4 h-full'>
-                    <img src={Horse} className="hidden sm:block w-[290px]" alt="" />
-                <h2 className='text-[#004A79] font-bold text-2xl pt-8'>Våra öppettider</h2>
-                <ul className='py-4 font-bold  text-[#4A4A4A]'>
+                    <div className='flex items-center justify-center  sm:w-full flex-col rounded-md bg-[#F9FBFF] shadow-custom'>
+                <div className='h-full'>
+                    <img src={Horse} className="hidden rounded-md sm:block w-[290px]" alt="Brun häst står åt sidan" />
+                <h2 className='text-[#004A79] px-4 font-bold text-2xl pt-8'>Våra öppettider</h2>
+                <ul className='py-4 font-bold px-4 pb-12  text-[#4A4A4A]'>
                     <li>
                         Måndag - Fredag: 9:00 - 17:00
                     </li>

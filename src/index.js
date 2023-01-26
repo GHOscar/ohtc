@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import ContactPage from './components/Contact/ContactPage';
 import TrailerPage from './components/Trailers/TrailerPage';
+import HorseTrailerPage from './components/HorseTrailers/HorseTrailerPage';
 
 const landingPage = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const landingPage = createBrowserRouter([
   {
     path: "/slapvagnar",
     element: <TrailerPage />,
+  },
+  {
+    path: "/hasttransporter",
+    element: <HorseTrailerPage />,
   },
 ]);
 

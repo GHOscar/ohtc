@@ -3,16 +3,12 @@ import Background from '../../assets/hero.jpg'
 
 const Home = () => {
   return (
-    <div name="home" className='w-full h-screen'>
-        <img src={Background} alt="" className="absolute object-cover h-[90%] w-full" />
+    <div name="home" className='w-full h-[80vh]'>
+        <img src={Background} alt="Mörk bild på häst" className="absolute object-cover h-[70%] w-full" />
 
-        <div className='w-full absolute px-8 flex flex-col justify-center  h-full'>
+        <div className='w-full absolute px-8 flex flex-col justify-center h-[70%]'>
             <h1 className='text-5xl sm:text-7xl font-bold text-white text-center'>Välkommen till Österlens Hästtransportcenter
             </h1>
-        </div>
-
-        <div className='h-[10%] wave w-full absolute bottom-0 lg:pl-24 flex items-center pl-8 bg-[#fff]'>
-            
         </div>
     </div>
   )

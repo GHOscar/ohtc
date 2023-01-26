@@ -40,7 +40,7 @@ const Navbar = () => {
                         <li>Debon Flaksläp </li>
                         <li>Tiki trailer</li>
                         </ul>
-                        <li className='hasttransporter'><a href="">Hästtransporter</a>
+                        <li className='hasttransporter'><a href="/hasttransporter">Hästtransporter</a>
                         <li>Cheval Libertép</li>
                         <li>Humbaur</li>
                         <li>Equi Trek</li></li>
@@ -83,7 +83,7 @@ const Navbar = () => {
                      
                     Våra produkter {!drop ? <RiArrowDropDownLine className='inline-block ml-4 h-8 w-8' /> : <RiArrowDropUpLine className='inline-block ml-4 h-8 w-8' />}
                     <ul className={!drop ? 'hidden' : 'font-bold relative left-0 flex-row  cursor-pointer text-lg  text-[#AD343E]  bg-[#F8F8F8]  items-left pl-2 pt-4'}>
-                        <li className='nav-drop'><a href="">Hästtransporter</a></li>
+                        <li className='nav-drop'><a href="/hasttransporter">Hästtransporter</a></li>
                         <li className='nav-drop'><a href="/slapvagnar">Släpvagnar</a></li>
                         <li className='nav-drop'><a href="">Däck</a></li>
                         </ul>

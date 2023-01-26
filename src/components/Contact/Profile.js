@@ -22,7 +22,7 @@ const Profile = () => {
             </div>
             
             <div className="img-container">
-                <img src={Horses} className="sm:rounded-md" alt="" />
+                <img src={Horses} className="sm:rounded-md" alt="Springande hästar i en hage en sommarkväll" />
             </div>
           
         </div>

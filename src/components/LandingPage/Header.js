@@ -16,10 +16,10 @@ const Header = () => {
                 </div>
             </div>
             
-            <div className='sm:px-6 flex items-center justify-center max-w-fit px-4 max-h-[70%] flex-col rounded-xl bg-[#E0EDFF] shadow-custom sm:ml-36 mx-4'>
+            <div className='px-8 flex items-center justify-center max-w-fit text-center sm:text-left flex-col rounded-xl bg-[#E0EDFF] shadow-custom sm:ml-36 mx-4'>
                 <div className='sm:px-4 py-4 h-full'>
-                <h2 className='text-[#004A79] font-bold text-2xl pt-8'>Våra öppettider</h2>
-                <ul className='py-4 font-bold  text-[#4A4A4A]'>
+                <h2 className='text-[#004A79] font-bold text-3xl sm:text-5xl pt-4'>Våra öppettider</h2>
+                <ul className='py-4 font-bold text-xl  text-[#4A4A4A]'>
                     <li>
                         Måndag - Fredag: 9:00 - 17:00
                     </li>

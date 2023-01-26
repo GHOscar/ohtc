@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             
             <div className="img-container">
-                <img src={Horses} className="sm:rounded-md" alt="" />
+                <img src={Horses} className="sm:rounded-md" alt="Flera hästar i en hage" />
             </div>
           
         </div>

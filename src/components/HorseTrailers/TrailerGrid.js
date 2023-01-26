@@ -6,15 +6,15 @@ import { BsSliders } from 'react-icons/bs'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 
 
-const TrailersGrid = () => {
+const TrailerGrid = () => {
   return (
     <div className=' flex flex-col items-center justify-center w-full h-full mb-20'>
         <div className="pb-4 px-4 mx-40 text-center mb-20">
-        <h2 className='font-bold text-3xl sm:text-5xl'>Vi har marknadens bästa släpvagnar från ledande märken</h2>
-        <p>Vi har marknadens bästa från Humbaur och Debon. Allt inom tippsläp, maskinsläp, skåpsläp eller flaksläp finns i vårt sortiment.Vi kan även bygga ditt skåpsläp precis enligt dina önskemål.Välkomna till oss på Österlens Hästtransportcenter.</p>
+        <h2 className='font-bold text-3xl sm:text-5xl'>Köp din nya hästtransport från oss på Österlens hästtransportcenter</h2>
+        <p>i på Österlens Hästtransportcenter importerar själva våra hästtransporter. Humbaur är en tysk kvalitetsvagn och tillverkas i Gersthofen. Cheval Liberté är en populär fransk vagn som tillverkas i Polen.</p>
         </div>
 
-        <div className="grid grid-cols-3 gap-8 max-w-[1200px]">
+        <div className="grid grid-cols-3 gap-8 sm:mx-4">
             <div className="filters pl-4">
                 <div className="categories flex flex-col mb-8">
                     <p className="font-bold">Kategori</p>
@@ -122,18 +122,6 @@ const TrailersGrid = () => {
                     <p className='text-[#AD343E] float-right font-black'>PRIS: 48 000:-<br /><span className='font-light'>exkl. moms</span></p>
                 </div>
                 </div>
-                <div className='md:mb-0 relative bg-[#F9F9F9]'>
-                  <img src={TrailerOne} alt="NPI service personal" />
-                <div className='py-6 px-4 mb-12 pb-12 sm:px-12 shadow-lg sm:rounded-xl'>
-                    <h4 className='font-bold text-3xl sm:text-4xl'>HUK 2700 (El-Tipp standard)</h4>
-                    <p className='h-fit pb-2'>Ett smidigt och lättkört tippsläp med perfekt storlek för den lilla entreprenaden firman!</p>
-                    <p><span className="font-bold">Mått: </span>270x150</p>
-                    <p><span className="font-bold">Totalvikt: </span>1 000-2 700 kg</p>
-                    <p><span className="font-bold">Tjänstevikt: </span>550 kg</p>
-                    <p><span className="font-bold">Färger: </span>Aluminium</p>
-                    <p className='text-[#AD343E] float-right font-black'>PRIS: 48 000:-<br /><span className='font-light'>exkl. moms</span></p>
-                </div>
-                </div>
             </div>
         </div>
 
@@ -141,4 +129,4 @@ const TrailersGrid = () => {
   )
 }
 
-export default TrailersGrid
+export default TrailerGrid

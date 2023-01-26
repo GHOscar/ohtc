@@ -8,7 +8,7 @@ const TrailerSection = () => {
     <div name="contact" className='w-full h-full my-24'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1200px] w-full items-center justify-center grid sm:grid-cols-2 sm:gap-8'>
-                <div className='sm:pb-8 sm:px-4 h-full flex flex-col sm:gap-20'>
+                <div className='sm:pb-8 h-full flex flex-col sm:gap-20'>
                     
                 <div className='mb-12 md:mb-0 relative'>
                   <img src={TrailerOne} alt="NPI service personal" className="pt-4" />
