@@ -1,7 +1,7 @@
 {
   "name": "ohtc",
   "version": "0.1.0",
-  "homepage": "https://ghoscar.github.io/",
+  "homepage": "https://ghoscar.github.io/ohtc/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
